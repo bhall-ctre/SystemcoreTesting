@@ -109,7 +109,7 @@ For Beta units, the only way to power is through the MicroFit Pwr/Bridge port. I
 
 ### Flashing OS Updates with the Web UI
 
-If your Systemcore is running image 12 or later, you should flash your device using the web based OTA (over-the-air) update. To do this, follow these steps.
+If your Systemcore is running image 12 or later, you should flash your device using the web based OTA (over-the-air) update feature. To do this, follow these steps.
 
 1. Download the latest .llupdate release from the [systemcore-os-public repository](https://github.com/LimelightVision/systemcore-os-public). Make sure to grab the correct one for your hardware revision (alpha or beta).
 2. Navigate to the web dashboard at http://robot.local/configure
@@ -119,7 +119,7 @@ If your Systemcore is running image 12 or later, you should flash your device us
 See the [WPILIB Docs](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-3/imaging-your-systemcore.html) for more detailed instructions.
 
 ### Flashing OS Updates with Flash Mode (Backup/Before Image 12)
-Update to the latest stable release to get started.
+Update to the latest stable release of the Limelight Hardware Manager to get started.
 
 For Alpha units, if the USB-C port is attached before power is applied, Systemcore will boot into flash mode.
 
@@ -137,8 +137,6 @@ For Beta units, hold down the Config button while powering the unit with USB con
 7. Click the “Flash” Button after it starts flashing. Full system images will take several minutes to flash.
 8. Once complete, remove USB and power from Systemcore
 
-> [!NOTE]
-> A browser-based OS update procedure is in development.
 
 ### Accessing the Web Interface and Setting Your Team Number
 
